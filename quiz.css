@@ -1,0 +1,39 @@
+/*#container{
+	border:1px solid red;
+	width:100%;
+	background-color:#CCC;
+padding:10px;
+	
+	
+}*/
+
+.box{
+	margin:auto;
+	margin-right:10px;
+	width:300px;
+	height:200px;
+	border:solid 1px #939;
+	background-color:#CCF;
+	border-radius:5px;
+	text-align:center;
+	padding:5px;
+	display: inline-block;
+   
+}
+
+h2{
+font-family: 'Arvo', serif;
+}
+
+.question{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+}
+
+input{
+	font-family: 'PT Sans', sans-serif;
+}
+
+li{
+	list-style:none;
+}
