@@ -1,4 +1,3 @@
-
 $(".box").not("#box1").hide();
 var questions=[
                           {question:"Question1", choices:["Answer1", "Answer2", "Answer3", "Answer4"], correct:1},
@@ -11,7 +10,7 @@ var questions=[
 			  {question:"Question8", choices:["Answer1", "Answer2", "Answer3", "Answer4"], correct:4},
 			  {question:"Question9", choices:["Answer1", "Answer2", "Answer3", "Answer4"], correct:1},
 			  {question:"Question10", choices:["Answer1", "Answer2", "Answer3", "Answer4"], correct:2}
-			  ]
+			  ];
 			  
 $("#box1").html(function()
 
