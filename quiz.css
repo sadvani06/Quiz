@@ -6,19 +6,48 @@ padding:10px;
 	
 	
 }*/
+*{
+ margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+body{
+  background-image:url('https://raw.githubusercontent.com/sadvani06/Quiz/master/Images/My-Little-Pony-Wallpaper.jpg');
+  background-size:cover;
+ 
+}
+  
 
-.box{
-	margin:auto;
-	margin-right:10px;
-	width:300px;
+/*#container{
+	width: 1000px;
 	height:200px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}*/
+.box{
+  
+  width:400px;
+	height:300px;
 	border:solid 1px #939;
 	background-color:#CCF;
-	border-radius:5px;
+	border-radius:10px;
 	text-align:center;
 	padding:5px;
 	display: inline-block;
    
+}
+
+#nextButton{
+  border:solid 1px #939;
+	background-color:#CCF;
+  border-radius:5px;
+  width:200px;
+  height:100px;
+  
 }
 
 h2{
