@@ -1,68 +1,68 @@
-/*#container{
-	border:1px solid red;
-	width:100%;
-	background-color:#CCC;
-padding:10px;
-	
-	
-}*/
-*{
- margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+body {
+  /*background-image:url('http://mlpg.co/q/src/1392056595693.png');*/
+    background-image:url('http://i.imgur.com/KhuxU6Z.png');
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-body{
-  background-image:url('https://raw.githubusercontent.com/sadvani06/Quiz/master/Images/My-Little-Pony-Wallpaper.jpg');
-  background-size:cover;
- 
-}
-  
-
-/*#container{
-	width: 1000px;
-	height:200px;
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	
-}*/
 .box{
-  
-  width:400px;
-	height:300px;
-	border:solid 1px #939;
-	background-color:#CCF;
-	border-radius:10px;
-	text-align:center;
-	padding:5px;
-	display: inline-block;
-   
+    position:relative;
+    margin: 0 auto;
 }
 
 #nextButton{
-  border:solid 1px #939;
-	background-color:#CCF;
-  border-radius:5px;
-  width:200px;
-  height:100px;
-  
+    left:36%;
+    width:100px;
+    position:absolute;
+   
+}
+#headerlogo{
+    position:absolute;
+    z-align:1;
+    right:50px;
+    left:50px;
+}
+button {
+    background-color:transparent;
+    color:brown;
+    height:30px;
+    border:0px;
+    border-radius:5px;
+    margin-top:10px;
+    cursor:pointer;
+    font-family:'Arvo', serif;
+    font-size:20px;
+}
+.box {
+    width:590px;
+    height:560px;
+    /*border:solid 1px #939;
+    background-color:#CCF;*/
+    background-image:url('http://fc03.deviantart.net/fs71/i/2011/324/2/d/mlp_fim_intro_scroll_by_m99moron-d4gqpbh.png');
+    background-size:600px;
+    border-radius:10px;
+    text-align:center;
+    padding:5px;
 }
 
-h2{
-font-family: 'Arvo', serif;
+
+#question {
+    font-family:'Arvo', serif;
+    font-size:20px;
+    padding-top:200px;
+    padding-right:70px;
+}
+#answer{
+     font-family:'Raleway', sans-serif;
+    font-weight:700px;
+    margin-top:10px;
+    padding-right:70px;
 }
 
-.question{
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 700;
-}
-
-input{
-	font-family: 'PT Sans', sans-serif;
-}
-
-li{
-	list-style:none;
+#correctAnswer{
+     font-family:'Raleway', sans-serif;
+    font-size:17px;
+    margin-top:35px;
+    padding-right:70px;
 }
