@@ -34,6 +34,9 @@ button {
     font-family:'Arvo', serif;
     font-size:20px;
 }
+#secondButton{
+    display:none;
+}
 .box {
     width:590px;
     height:560px;
@@ -59,6 +62,14 @@ button {
     margin-top:10px;
     padding-right:70px;
 }
+#explanation{
+     font-family:'Raleway', sans-serif;
+    font-weight:700px;
+    padding-top:200px;
+    padding-right:70px;
+    
+    
+}
 
 #correctAnswer{
      font-family:'Raleway', sans-serif;
@@ -66,3 +77,6 @@ button {
     margin-top:35px;
     padding-right:70px;
 }
+
+
+
